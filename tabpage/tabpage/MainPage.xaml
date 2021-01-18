@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tabpage.MainPage" xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom">
+    <ContentPage Title="page1">
+        <Label Text="page1" TextColor="Black" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+    </ContentPage>
+    <ContentPage Title="page2">
+        <Label Text="page2" TextColor="Black" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+    </ContentPage>
+    <ContentPage Title="page3">
+        <Label Text="page3" TextColor="Black" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+    </ContentPage>
+
+
+</TabbedPage>
